@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "mcp-server-AXBV": {
+      "command": "uv",
+      "args": ["run", "server.py"],
+      "env": {}
+    }
+  }
+}
