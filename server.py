@@ -7,5 +7,9 @@ mcp = FastMCP("AXBV-quotes-server")
 def get_axbv_happy_quote() -> str:
     return get_happy_quote()
 
+@mcp.tool(name = "Get-AXBV-sad-quote")
+def get_axbv_sad_quote() -> str:
+    return get_sad_quote()
+
 if __name__ == "__main__":
     mcp.run()
